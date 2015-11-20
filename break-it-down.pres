@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+##  888888b.                            888           d8b 888    
+    888  "88b                           888           Y8P 888    
+    888  .88P                           888               888    
+    8888888K.  888d888 .d88b.   8888b.  888  888      888 888888 
+    888  "Y88b 888P"  d8P  Y8b     "88b 888 .88P      888 888    
+    888    888 888    88888888 .d888888 888888K       888 888    
+    888   d88P 888    Y8b.     888  888 888 "88b      888 Y88b.  
+    8888888P"  888     "Y8888  "Y888888 888  888      888  "Y888 
+                             888                                 
+                             888
+                             888                                 
+                         .d88888  .d88b.  888  888  888 88888b.  
+                        d88" 888 d88""88b 888  888  888 888 "88b 
+                        888  888 888  888 888  888  888 888  888 
+                        Y88b 888 Y88..88P Y88b 888 d88P 888  888 
+                         "Y88888  "Y88P"   "Y8888888P"  888  888 
+
+                         (codestyle hollywars expected)       ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+## > Functions       ##
+
+Decrease function size ###
+- > endpoint.js
+    
+- up to 4 lines is ideal size
+
+- Segregate the main flow from utils/helpers
+    * describe the flow by calling untility subroutines
+    * use "service" 3p libs e.g. underscore/lodash and create your own
+
+- decrease complexity by splitting task to steps
+
+- decrease call-stack sequence by using 'Monadic' structures such as:
+    * Promises
+    * Node Streams
+    * Generators
+    * Composites (for synchronous sequences)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## > Modules         ##
+- > cacheFactory.js
+
+- Loosly coupled / highly cohesive
+
+- Return first, declare then!
+
+- Put the main flow function upper, privates
+
+- Public interface should be concise: <=5 is good
+
+- Be stateless as much as possible: use pure functions
+
+- Segregate and encapsulate the state managing flow into 'Monads'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## > Components      ##
+
+- Self-contained
+
+- Encapsulates all necessary logic to work stand-alone
+
+- Can be extracted into a lib and deployed separately
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## > Services        ##
+
+Microservices are cool. Separation of concerns becomes much easier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## > States          ##
+
+- Be calm and follow FP!
+
+Use common data flow architecture to control and encapsulate state
+changing in expected place.
+
+
+
+                  - ----------------------------------------------------------------------.
+                  - |_.-._.-._.-._.-._.-._.-.    _.-._.-._.-.    _.-._.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._. .::db .-._.-._. .::db .-._.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._ .::d88b -._.-._ .::d88b -._.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-. .::d8888b       .::d8888b ._.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.- .::d88!::::::::::::d888888b _.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.- \  Y88\_________\  Y888888P _.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-. \  Y8888P ._.-. \  Y8888P ._.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._ /dbY88Pdb _.-._ /dbY88Pdb _.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-. /d8P_YP Y8b .-. /d8P_YP Y8b .-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-     /d8P .-.\ Y8b   /d8P .- \ Y8b -._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._ .::db/d8P _.-. \.::db/d8P _.-. \ Y8b ._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-. .::d88bYP ._.-. .::d88LSP ._.-._ \ Y8b    ._.-._.-._.-._.|
+                  - |_.-._.-._.- .::d8888b       .::d8888b`b _.-._. \ Y8b:db _.-._.-._.-._.|
+                  - |_.-._.-._. .::d88!::::::::::::d888888b`b .-._.- \ YPd88b .-._.-._.-._.|
+                  - |_.-._.-._. \  Y88\_________\  Y888888Pd8b       .::d8888b -._.-._.-._.|
+                  - |_.-._.-._.- \  Y8888P -._.- \  Y8888P!::::::::::::d888888b ._.-._.-._.|
+                  - |_.-._.-._.-. \  Y88Pdb ._.-. \  Y88Pdb_________\  Y888888P ._.-._.-._.|
+                  - |_.-._.-._.-._ \__YP Y8b _.-._ \__YP Y8b`P -._.- \  Y8888P -._.-._.-._.|
+                  - |_.-._.-._.-._.-._. \ Y8b .-._.-. /d\ Y8b .-._.-. /dbY88P .-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.- \ Y8b -._.- /d8P\ Y8b -._.- /d8P_YP _.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-. \ Y8b     /d8P _\ Y8b     /d8P _.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._ \ Y8b:db/d8P ._ \ Y8b:db/d8P ._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._. \ YPd88bYP -._. \ YPd88bYP -._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._. .::d8888b       .::d8888b .-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._ .::d88!::::::::::::d888888b -._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._ \  Y88\_________\  Y888888P -._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._. \  Y8888P .-._. \  Y8888P .-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._.- \  Y88P _.-._.- \  Y88P _.-._.-._.-._.-._.-._.|
+                  - |_.-._.-._.-._.-._.-._.-. \__YP ._.-._.-. \__YP ._.-._.-._.-._.-._.-._.|
+                  - `----------------------------------------------------------------------'
+
+> cohesion ###

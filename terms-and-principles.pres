@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 ##
 88888888888                                                                  888 
     888                                                                      888 
@@ -28,28 +23,6 @@
                                                  888                          ##
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## The term of Factoring ##
-
-Decomposition or Factoring ###
-Is a process of breaking down complex stuff to simpler parts
-
-Code Refactoring ###
-Process of restructuring existing codebase to reduce the Technical Debt.
-
-Pre-factoring ###
-Decomposing at stage of creation of a new application considering previous experience
 
 -                               ,|     
 -                             //|                              ,|
@@ -77,6 +50,33 @@ Decomposing at stage of creation of a new application considering previous exper
 -            `\_|                   (,~~ 
 -                                    \~\ 
 -                                     ~~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The term of Factoring ##
+
+Decomposition or Factoring ###
+Is a process of breaking down complex stuff to simpler parts
+
+Code Refactoring ###
+Process of restructuring existing codebase to reduce the Technical Debt.
+
+Pre-factoring ###
+Decomposing at stage of creation of a new application considering previous experience
+
+
 
 
 
@@ -150,6 +150,22 @@ Architecture must be ###
 
 - Loosly coupled and highly cohesive
 
+                 +_____A_____+
+                 /:`          :\
+               D/ : `         : B
+               /  :  `        :  \
+              /   :   +-----A-----+
+             +______A_|__,    :   :
+             :`   *___|_A_\___+   :
+             : `  `   C  : B   \  :
+             :  `  `  |  :  \   B :
+             :   +--`-|--A---+   \:
+             :   |   `+____A______+
+             *__ |__A____+   :   ,
+             `   |        \  :  ,
+              `  C         B : ,
+               ` |          \:,
+                `+_____A_____+
 
 
 
@@ -277,3 +293,6 @@ solves. On the other hand it should be flexible enough to extend.
 
 Simple common principles say everything can be split, should be.
 Simply it's easier to combine than to split.
+
+
+> javascript-way ###

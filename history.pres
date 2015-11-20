@@ -47,17 +47,12 @@
 
 
  
-## Business and management ##
+## Business perspective ##
 
-Clients don't usualy like Refactoring, as non-functional changing
-and it's hard to measure the value.
-
-- Tasks delegation among teams and devs
+- Tasks delegation among teams and members
 - Blockers and dependencies
-- Merge and integrational conflicts
 - Maintainability
-- Responsiveness to changing requirements
-- Team motivation
+- Flexibility: Responsiveness to changing requirements
 
 
 
@@ -78,9 +73,10 @@ and procedures.
 
 ## /Guidlines of OO[P|D]/ ##
 
-
-
 ## Testing ##
+
 ## Deployment ##
+
 ## Maintenance ##
 
+> terms-and-principles ###

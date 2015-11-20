@@ -74,6 +74,8 @@ var calculator = (function() {
 ## CommonJS and AMD ##
 
 -                 AMD                                   VS               CommonJS
+- Manages dependencies asyncronously                       - Gathers files into bundle under the hood
+- Restricts using 'define' wrapper                         - Provides 'require' as a dependency provider
 - // calculator.js                                         // calculator.js
   define('calculator', function() {                        module.exports = {
     return {                                                 sum: function(a, b) { return a + b; }
@@ -86,13 +88,9 @@ var calculator = (function() {
     console.log(calculator.sum(1, 2)); // => 3             assert.equal(3, calculator.sum(1, 2));
   });       
 
-
-
-
-
-
-
-
+In reality, AMD can save some traffic by not requiring unused dependencies,
+but constant HTTP requests to server, make it even more expensive than just
+load the whole bundle at once.
 
 
 
@@ -100,6 +98,8 @@ var calculator = (function() {
 
 
 ## ES6 way ##
+
+Nice and simple:
 
 - // calculator.js
   export default function sum(a, b) { return a + b; }
@@ -122,8 +122,47 @@ var calculator = (function() {
 
 
 
-## Building tools
+## Building tools ##
+
+No native support so far. So you need ones:
+
+  - Browserify 
+  - Webpack
+  - jspm
+  - Framework built-ins (e.g. AngularJS)
+
+To get launched by a task runner such as
+
+  - Gulp
+  - Grunt
+  - NPM script
+  - Rake, etc.
 
 
-  * Dinosaurs
-  * Browserify vs Webpack
+
+
+
+
+
+
+
+
+## 3rd party libraries ##
+
+##
+888b    888 8888888b.  888b     d888 
+8888b   888 888   Y88b 8888b   d8888 
+88888b  888 888    888 88888b.d88888 
+888Y88b 888 888   d88P 888Y88888P888 
+888 Y88b888 8888888P"  888 Y888P 888 
+888  Y88888 888        888  Y8P  888 
+888   Y8888 888        888   "   888 
+888    Y888 888        888       888 ##
+                                     
+Just use it.
+
+
+## Bower ##
+Just use NPM.
+
+> break-it-down ###

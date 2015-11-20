@@ -44,7 +44,16 @@ ___
      |        
 ##
 
-Terms and principles ###
+## Goals and history ##
+
+  * Business perspective
+  * Structured programming
+  * OOP/OOD
+  * Testing
+  > history ###
+
+## Terms and principles ##
+
   * The term of Factoring
   * Principles, rules and advices
   * What is Software Architecture?
@@ -52,32 +61,42 @@ Terms and principles ###
   * When should I split?
   * Separation of concerns
   * Coupling and Cohesion
+> terms-and-principles ###
 
-Goals and history ###
-  * Business and management
-  * Structured programming
-  * /Guidlines of OO[P|D]/
-  * Testing
-  * Deployment
-  * Maintenance
+## JavaScript way ##
 
-JavaScript way ###
   * Module pattern
   * CommonJS and AMD
-  * Build tools
-  * Dinosaurs
+  * Building tools
   * Browserify vs Webpack
   * ES6 way
+  * 3rd party libraries
+  > javascript-way ###
 
-Break it down ###
+## Break it down ##
+
   * Functions
   * Modules
   * Components
   * Services
   * States
+  > break-it-down ###
 
-Architecturing ###
+## Cohesion ##
+
+  * Coincidental
+  * Logical
+  * Temporal
+  * Procedural
+  * Communicational
+  * Sequential
+  * Functional
+  > cohesion ###
+
+## Architecturing ##
+
   * Microservice Architecture
   * Service oriented Architecture
   * MVC and derivatives
   * FLUX way
+  > architecturing ###
