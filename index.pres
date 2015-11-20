@@ -1,0 +1,83 @@
+
+##
+
+                     /                                                                
+                   ,/~                                                                       \
+                 ~/(\                                                                        _\,,
+        ~ _____~/ / `                                                                       "-=\~     _
+      ~~~( )___( |                                                                             \\~___( ~
+        /|/_  _`/|                                                                            _|/---\\_
+          \    /                                                                              \        \  ##
+            
+##          
+8888888b.                                                                     d8b 888    d8b                   
+888  "Y88b                                                                    Y8P 888    Y8P                   
+888    888                                                                        888                          
+888    888  .d88b.   .d8888b .d88b.  88888b.d88b.  88888b.   .d88b.  .d8888b  888 888888 888  .d88b.  88888b.  
+888    888 d8P  Y8b d88P"   d88""88b 888 "888 "88b 888 "88b d88""88b 88K      888 888    888 d88""88b 888 "88b 
+888    888 88888888 888     888  888 888  888  888 888  888 888  888 "Y8888b. 888 888    888 888  888 888  888 
+888  .d88P Y8b.     Y88b.   Y88..88P 888  888  888 888 d88P Y88..88P      X88 888 Y88b.  888 Y88..88P 888  888 
+8888888P"   "Y8888   "Y8888P "Y88P"  888  888  888 88888P"   "Y88P"   88888P' 888  "Y888 888  "Y88P"  888  888 
+                                                   888                                                         
+                                                   888      System Factoring of JavaScript projects 
+                                                   888                                                      ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##
+___           
+ | _  _ . _ _ 
+ |(_)|_)|(__) 
+     |        
+##
+
+Terms and principles ###
+  * The term of Factoring
+  * Principles, rules and advices
+  * What is Software Architecture?
+  * Lumpers and splitters
+  * When should I split?
+  * Separation of concerns
+  * Coupling and Cohesion
+
+Goals and history ###
+  * Business and management
+  * Structured programming
+  * /Guidlines of OO[P|D]/
+  * Testing
+  * Deployment
+  * Maintenance
+
+JavaScript way ###
+  * Module pattern
+  * CommonJS and AMD
+  * Build tools
+  * Dinosaurs
+  * Browserify vs Webpack
+  * ES6 way
+
+Break it down ###
+  * Functions
+  * Modules
+  * Components
+  * Services
+  * States
+
+Architecturing ###
+  * Microservice Architecture
+  * Service oriented Architecture
+  * MVC and derivatives
+  * FLUX way

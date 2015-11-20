@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+##
+
+888    888 d8b          888                            
+888    888 Y8P          888                            
+888    888              888                            
+8888888888 888 .d8888b  888888 .d88b.  888d888 888  888
+888    888 888 88K      888   d88""88b 888P"   888  888
+888    888 888 "Y8888b. 888   888  888 888     888  888
+888    888 888      X88 Y88b. Y88..88P 888     Y88b 888
+888    888 888  88888P'  "Y888 "Y88P"  888      "Y88888
+                                                    888
+                       888                     Y8b d88P    888                     
+                       888                      "Y88P"     888                     
+                       888                                 888          
+ 8888b.  88888b.   .d88888       .d88b.   .d88b.   8888b.  888 .d8888b  
+    "88b 888 "88b d88" 888      d88P"88b d88""88b     "88b 888 88K      
+.d888888 888  888 888  888      888  888 888  888 .d888888 888 "Y8888b. 
+888  888 888  888 Y88b 888      Y88b 888 Y88..88P 888  888 888      X88 
+"Y888888 888  888  "Y88888       "Y88888  "Y88P"  "Y888888 888  88888P' 
+                                     888                                
+                                Y8b d88P                                
+                                 "Y88P"                                                    
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+## Business and management ##
+
+Clients don't usualy like Refactoring, as non-functional
+and it's hard to measure the value.
+
+- Tasks delegation among teams and devs
+- Blockers and dependencies
+- Merge and integrational conflicts
+- Maintainability
+- Responsiveness to changing requirements
+- Team motivation
+
+
+
+
+
+
+
+
+
+
+
+
+## Structured programming ##
+
+Breaks down the process into subroutine steps as functions, methods
+and procedures.
+
+
+## /Guidlines of OO[P|D]/ ##
+## Testing ##
+## Deployment ##
+## Maintenance ##
+

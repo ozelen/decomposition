@@ -1,0 +1,279 @@
+
+
+
+
+
+
+
+##
+88888888888                                                                  888 
+    888                                                                      888 
+    888                                                                      888 
+    888   .d88b.  888d888 88888b.d88b.  .d8888b        8888b.  88888b.   .d88888 
+    888  d8P  Y8b 888P"   888 "888 "88b 88K               "88b 888 "88b d88" 888 
+    888  88888888 888     888  888  888 "Y8888b.      .d888888 888  888 888  888 
+    888  Y8b.     888     888  888  888      X88      888  888 888  888 Y88b 888 
+    888   "Y8888  888     888  888  888  88888P'      "Y888888 888  888  "Y88888  
+
+    8888888b.          d8b                   d8b          888                   
+    888   Y88b         Y8P                   Y8P          888                   
+    888    888                                            888                   
+    888   d88P 888d888 888 88888b.   .d8888b 888 88888b.  888  .d88b.  .d8888b  
+    8888888P"  888P"   888 888 "88b d88P"    888 888 "88b 888 d8P  Y8b 88K      
+    888        888     888 888  888 888      888 888  888 888 88888888 "Y8888b. 
+    888        888     888 888  888 Y88b.    888 888 d88P 888 Y8b.          X88 
+    888        888     888 888  888  "Y8888P 888 88888P"  888  "Y8888   88888P' 
+                                                 888                            
+                                                 888                            
+                                                 888                          ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The term of Factoring ##
+
+Decomposition or Factoring ###
+Is a process of breaking down complex stuff to simpler parts
+
+Code Refactoring ###
+Process of restructuring existing codebase to reduce the Technical Debt.
+
+Pre-factoring ###
+Decomposing at stage of creation of a new application considering previous experience
+
+-                               ,|     
+-                             //|                              ,|
+-                           //,/                             -~ |
+-                         // / |                         _-~   /  ,
+-                       /'/ / /                       _-~   _/_-~ |
+-                      ( ( / /'                   _ -~     _-~ ,/'
+-                       \~\/'/|             __--~~__--\ _-~  _/,
+-               ,,)))))));, \/~-_     __--~~  --~~  __/~  _-~ /
+-            __))))))))))))));,>/\   /        __--~~  \-~~ _-~
+-           -\(((((''''(((((((( >~\/     --~~   __--~' _-~ ~|
+-  --==//////((''  .     `)))))), /     ___---~~  ~~\~~__--~ 
+-          ))| @    ;-.     (((((/           __--~~~'~~/
+-          ( `|    /  )      )))/      ~~~~~__\__---~~__--~~--_
+-             |   |   |       (/      ---~~~/__-----~~  ,;::'  \         ,
+-             o_);   ;        /      ----~~/           \,-~~~\  |       /|
+-                   ;        (      ---~~/         `:::|      |;|      < >
+-                  |   _      `----~~~~'      /      `:|       \;\_____// 
+-            ______/\/~    |                 /        /         ~------~
+-          /~;;.____/;;'  /          ___----(   `;;;/               
+-         / //  _;______;'------~~~~~    |;;/\    /          
+-        //  | |                        /  |  \;;,\              
+-       (<_  | ;                      /',/-----'  _>
+-        \_| ||_                     //~;~~~~~~~~~ 
+-            `\_|                   (,~~ 
+-                                    \~\ 
+-                                     ~~ 
+
+
+
+
+
+
+
+
+
+
+
+
+## Principles, rules and practices ##
+
+Principles ###
+Are natural laws that just work in a given environment, no matter understand and
+follow you them or not.
+
+Rules ###
+Are direct statements set by people, often based on principles of the environment.
+
+Advices and Best-practices ###
+Each one is good that you don't have to follow it... but better for you to be aware.
+
+
+##
+     .--,       .--,
+    ( (  \.---./  ) )
+     '.__/o   o\__.'
+        {=  ^  =}
+         >  -  <
+        /       \
+       //       \\
+      //|   .   |\\
+      "'\       /'"_.-~^`'-.
+         \  _  /--'         `
+       ___)( )(___
+      (((__) (__))) ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Software Architecture ##
+
+Describes ###
+
+- The Solution itself
+
+- System units and data-flow among them
+
+Things are secondary ###
+
+- Toolkit and delivery mechanisms are secondary
+
+- Implementation of parts
+
+Architecture must be ###
+
+- Able to be delivered in different ways
+
+- Flexible for extensions and replacements
+
+- Loosly coupled and highly cohesive
+
+
+
+
+
+
+
+
+
+
+
+## Unit relationship: Coupling and Cohesion ##
+
+-              .-. .-.
+-             (   `   )
+-              `.   .'
+-                `.'
+##            .-.   .-.
+        (`.__(. .) (. .)__.')
+        (      V \ / V      )
+  ()     \/   )  / \  (   \/      ()
+<)-`\()  / _.'_.'   `._`._ \   ()/'-(>
+* <)_>== `'==>>=======<<==`'====<_(>
+ <>-'`(>                      <)'`-<>
+                                 ##
+
+## Imagine a System Module is a family: ##
+
+Cohesion is relationship within should be ###
+
+- Trusty and reliable
+- Work for the same goal
+
+Coupling with other modules ###
+- Direct relationship with a part of another unit is kinda cheating :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The way you think: Lumpers or splitters ##
+
+Lumpers tend tocreate cumbersome structures and keen on generalize, 
+while Splitters create a number of small structures and tend to make
+extra complexity in relationship among them.
+
++------+.      +------+       +------+       +------+      .+------+
+|`.    | `.    |\     |\      |      |      /|     /|    .' |    .'|
+|  `+--+---+   | +----+-+     +------+     +-+----+ |   +---+--+'  |
+|   |  |   |   | |    | |     |      |     | |    | |   |   |  |   |
++---+--+.  |   +-+----+ |     +------+     | +----+-+   |  .+--+---+
+ `. |    `.|    \|     \|     |      |     |/     |/    |.'    | .'
+   `+------+     +------+     +------+     +------+     +------+'
+
+   .+------+     +------+     +------+     +------+     +------+.
+ .' |    .'|    /|     /|     |      |     |\     |\    |`.    | `.
++---+--+'  |   +-+----+ |     +------+     | +----+-+   |  `+--+---+
+|   |  |   |   | |    | |     |      |     | |    | |   |   |  |   |
+|  ,+--+---+   | +----+-+     +------+     +-+----+ |   +---+--+   |
+|.'    | .'    |/     |/      |      |      \|     \|    `. |   `. |
++------+'      +------+       +------+       +------+      `+------+
+
+   .+------+     +------+     +------+     +------+     +------+.
+ .' |      |    /|      |     |      |     |      |\    |      | `.
++   |      |   + |      |     +      +     |      | +   |      |   +
+|   |      |   | |      |     |      |     |      | |   |      |   |
+|  .+------+   | +------+     +------+     +------+ |   +------+.  |
+|.'      .'    |/      /      |      |      \      \|    `.      `.|
++------+'      +------+       +------+       +------+      `+------+
+
+Ask yourself and avoid mental traps you may be caught in.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## When should I split? ##
+
+        - Extract until you drop
+          Uncle Bob ###
+
+        - Drop it finally!
+          Me ###
+
+Don't overkill. The solution must not be more complex than task it
+solves. On the other hand it should be flexible enough to extend.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Single responsibility and Separation of concerns ##
+
+
+Simple common principles say everything can be split, should be.
+Simply it's easier to combine than to split.
