@@ -49,7 +49,7 @@
  
 ## Business and management ##
 
-Clients don't usualy like Refactoring, as non-functional
+Clients don't usualy like Refactoring, as non-functional changing
 and it's hard to measure the value.
 
 - Tasks delegation among teams and devs
@@ -77,6 +77,9 @@ and procedures.
 
 
 ## /Guidlines of OO[P|D]/ ##
+
+
+
 ## Testing ##
 ## Deployment ##
 ## Maintenance ##
